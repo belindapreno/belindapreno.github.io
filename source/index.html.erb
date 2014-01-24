@@ -1,0 +1,23 @@
+<!-- Add your site or application content here -->
+<div class="intro">
+
+  <div class="content">
+    <img class="logo" src="img/logo-blue.png">
+    <h1>365 Days of Inbox Zero</h1>
+    <img class="down" src="img/logo-blue.png">
+  </div>
+
+</div>
+
+<div class="grid">
+  <% (Date.parse('2013-02-07') .. Date.parse('2014-02-06')).each do |date| %>
+
+    <div class="inbox">
+      <a class="ir" href="javascript:;">
+        <img src=<%= "//mailbox-zero-inbox.s3.amazonaws.com/#{date.month}-#{date.day}-#{date.year}.jpg" %>>
+      </a>
+    </div>
+
+  <% end %>
+
+</div>

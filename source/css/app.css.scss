@@ -1,0 +1,58 @@
+$title-font-stack: Helvetica, sans-serif;
+$font-stack: "futura-pt", sans-serif;
+
+$blue: #51B9DB;
+$medium-gray: #C8CACC;
+$light-gray:  #E1E1E1;
+$dark-gray:   #737373;
+
+body {
+  color: $dark-gray;
+  font: 1em $font-stack;
+}
+
+
+.intro {
+  width: 100%;
+  text-align: center;
+
+  h1 {
+    text-transform: uppercase;
+    color: $blue;
+    margin: 2em 0 6em 0;
+
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+
+  img.logo {
+    width: 5em;
+  }
+
+  img.down {
+    width: 5em;
+  }
+}
+
+
+.grid {
+  h2, h3 {
+    color: $dark-gray;
+  }
+}
+
+
+
+.grid {
+
+  .inbox {
+    float: left;
+    background-color: #333;
+  }
+
+
+
+}
