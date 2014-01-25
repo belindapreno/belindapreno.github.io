@@ -14,4 +14,13 @@ $(document).ready(()->
   resizeIntro()
 
 
+
+  $(window).scroll(()->
+    depth = $(window).scrollTop() 
+    opacity = 1-(1.5*depth/$('.intro').height())
+
+    $('.intro').css('opacity', opacity)
+  )
+
+
 )
