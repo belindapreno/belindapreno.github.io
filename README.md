@@ -1,9 +1,6 @@
-mailbox365
-==========
+## Mailbox 365
 
-### Mailbox 365
-
-#### Basic Views
+### Basic Views
 - [x] Intro Slide
 - [x] Grid Layout
 - [ ] Month Indicators
@@ -11,10 +8,10 @@ mailbox365
 - [ ] Rollover
 - [ ] Progressive Image Loading
 
-#### Responsive Breakpoints
+### Responsive Breakpoints
 - [ ] Main Layout
 - [ ] Details View
 
-#### Mobile Breakpoint
+### Mobile Breakpoint
 - [ ] Main Layout
 - [ ] Details View
