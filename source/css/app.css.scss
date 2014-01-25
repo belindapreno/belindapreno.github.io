@@ -40,6 +40,11 @@ body {
 
   img.down {
     width: 3em;
+    bottom: 3em;
+    position: absolute;
+    display: block;
+    left: 50%;
+    margin-left: -1.5em;
   }
 }
 
